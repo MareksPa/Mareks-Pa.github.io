@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
+      
+      <link rel="stylesheet" href="index.css">
         <title>marex.id</title>
     </head>
-    <body>
-        <p>This is working?</p>
-    </body>
+<body>
+    <h1>Static website</h1>
+    <main>
+      <section>
+        <p>This project is hosted on GitHub, using GitHub pages.</p>
+      </section>
+      <section>
+        <h2>Click on the elements to nuke them.</h2>
+        <ul>
+          <p id="clickToNuke">HTML5</p>
+          <p id="clickToNuke">CSS3</p>
+          <li id="clickToNuke">JavaScript</li>
+        </ul>
+          
+        <h3>Function of the website:</h3>
+        <ol>
+          <li>Contain relevant information for website development</li>
+          <li>Easy to track documentation libraryr</li>
+        </ol>
+      </section>
+      <section>
+        <h2>Form to test web-server submits and JavaScript integration</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Send this to server? type:radio button</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>Send this to server? type:checkbox</legend>
+            <input id="HTML" type="checkbox" name="personality" value="HTML" checked> <label for="HTML">HTML</label>
+            <input id="CSS" type="checkbox" name="personality" value="CSS"> <label for="CSS">CSS</label>
+            <input id="JavaScript" type="checkbox" name="personality" value="JavaScript"> <label for="JavaScript">JavaScript</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="URL submit" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>made by Mareks</p>
+    </footer>
+  </body>
+    <script src="index.js"></script>
 </html>
