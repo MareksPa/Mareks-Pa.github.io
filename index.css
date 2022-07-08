@@ -13,7 +13,7 @@ p {
   cursor: pointer;
 }
 
-#clickToNuke {
+.clickToNuke {
   cursor: pointer;
 }
 
